@@ -52,6 +52,7 @@ pip, so upgrade pip : `pip install --upgrade pip`
 We'll be using [linter-pylint](https://atom.io/packages/linter-pylint).
 
 `pip install pylint`
+
 `apm install linter-pylint`
 
 ## Python REPL
