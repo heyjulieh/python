@@ -328,8 +328,10 @@ will add to the end of a list.
 We do not have built-in operators for removing or adding to the beginning of a
 list. As hackers, we've got some hacks, though.
 
-`.remove()` allows us to remove an element at any index. Thus, `list.remove(0)`
-would remove the first element from a list.
+`.remove()` allows us to remove the first matching value. Thus, `wdi_base_langs.remove("JS")`
+would remove "JS" from a list.
+
+`del list[0]` allows us to remove the value at the first index. Thus, `del wdi_base_langs[0]` would also remove "JS" from the list as well.
 
 We could implement our array merging to add to the beginning of a list. Look at
 the following:
