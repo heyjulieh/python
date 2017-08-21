@@ -331,7 +331,7 @@ list. As hackers, we've got some hacks, though.
 `.remove()` allows us to remove the first matching value. Thus, `wdi_base_langs.remove("JS")`
 would remove "JS" from a list.
 
-`del list[0]` allows us to remove the value at the first index. Thus, `del wdi_base_langs[0]` would also remove "JS" from the list as well.
+`del list[0]` allows us to remove an element at any index. Thus, `del wdi_base_langs[0]` would also remove "JS" from the list as well; `del wdi_base_langs[1]` would remove "Ruby" from the list, etc..
 
 We could implement our array merging to add to the beginning of a list. Look at
 the following:
